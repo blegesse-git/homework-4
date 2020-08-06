@@ -1,0 +1,119 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+#header {
+    text-align: center;
+    color: rgb(206, 126, 140);
+    font-family: 'Amatic SC', cursive;
+    
+}
+body {
+    padding:0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 163, 163);
+}
+
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: rgb(255, 188, 188);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    
+}
+
+.buttons .btn {
+    display: block;
+    font-size: 25px;
+    margin: 10px 40px 10px 0;
+    padding: 10px 10px;
+    text-align: center;
+    color: whitesmoke;
+    background-color:  rgb(206, 126, 140);
+    
+}
+#question-container {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    
+}
+#question {
+    text-align: center;
+    color: rgb(206, 126, 140);
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+#time {
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+    
+}
+ 
+ 
+#choice_1, #choice_2, #choice_3, #choice_4 {
+    
+}
+
+.start-button, .next-button {
+    
+    background-color: rgb(206, 126, 140); 
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Amatic SC', cursive;
+}
+.main {
+    border-radius: 12px;
+}
+#timer {
+    float: right;
+    margin-right: 20px;
+    color: rgb(202, 153, 177);
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    
+}
+#high-score {
+    float: left;
+    margin-left: 20px;
+    color: rgb(202, 153, 177);
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.start-button:active {
+    background-color: rgb(180, 98, 167);
+    box-shadow: 0 5px #fff;
+    
+}
+.start-button:hover {
+    background-color:rgb(221, 166, 166);
+}
+.hide {
+    display: none;
+}

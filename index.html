@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href = "style.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <title>QUIZ GAME</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid main">
+            <p id="timer">Timer: </p>
+            <a id="high-score" href="#">Highscores</a>
+            <h1 id="header">Javascript Quiz</h1>
+
+        </div>
+        <div id="question-container" class="hide"><span id="time"></span>
+            <div id = "question"></div>
+            <div class = "buttons" id="answerbtns">
+                <button class = "btn" id = "choice1">1</button>
+                <button class = "btn" id = "choice2">1</button>
+                <button class = "btn" id = "choice3">1</button>
+                <button class = "btn" id = "choice4">1</button>
+            </div>
+        </div>
+        <div class = "controls">
+            <button id = "start-button" class = "start-button button">Start</button>
+            <button id = "next-button" class = "next-button button hide">Next</button>
+        </div>
+    </div>
+    <script defer src = "script.js"></script>
+ 
+</body>
+</html>
